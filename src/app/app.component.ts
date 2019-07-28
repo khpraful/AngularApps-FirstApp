@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'first-ng-app';
+  title = 'my first ng app';
+  buttonText1="Click-Propery Binding"; 
+  buttonText2="Click-Interpolation Binding"; 
+
+  showall(arg:any):void{
+    console.log(arg);
+  } 
 }
